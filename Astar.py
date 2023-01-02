@@ -49,6 +49,7 @@ def aStarAlgo(start_node, stop_node):
             path.append(start_node)
             path.reverse()
             print('Path found: {}'.format(path))
+            print('with total cost = ' ,g['G'])
             return path
             # remove n from the open_list, and add it to closed_list
 # because all of his neighbors were inspected
