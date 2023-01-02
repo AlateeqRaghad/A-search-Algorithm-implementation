@@ -7,7 +7,8 @@ A* Search algorithm is one of the best and most popular techniques used in path-
     heuristic, graph nodes
 ### Output
     if the path exists "Path found: {}" path nodes will be in the curly 
-    brackets
+    brackets, "with total cost" and the least path cost to reach the goal 
+    state 
     if the path does not exist "Path does not exist!"
 ### Resources
     https://www.simplilearn.com/tutorials/artificial-intelligence- 
